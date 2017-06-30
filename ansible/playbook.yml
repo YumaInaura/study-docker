@@ -1,0 +1,10 @@
+---
+- hosts: example
+  tasks:
+  - name: display message
+    debug:
+      msg: Hello World
+  - name: copy file
+    copy:
+      src: example.txt
+      dest: /
