@@ -1,0 +1,9 @@
+---
+- hosts: example
+  tasks:
+  - name: debug task1
+    debug:
+      msg: Hello World
+  - name: debug task2
+    debug:
+      msg: Hello Ansible
